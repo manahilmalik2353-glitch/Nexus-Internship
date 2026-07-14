@@ -28,3 +28,15 @@ backend/.env
 
 # Backend dependencies
 backend/node_modules
+# Environment files
+.env
+backend/.env
+
+# Backend dependencies
+backend/node_modules
+
+# Uploaded test files
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/test-document.pdf
+backend/signature.png
